@@ -1,0 +1,71 @@
+
+.button-guide{
+width:20rem;
+height: auto;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding:10px;
+
+}
+
+.button{
+  width: 10rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.2),1px 2px 2px rgba(0,0,0,0.2);
+  cursor:pointer;
+  color:white;
+  padding:0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin:10px;
+  
+
+}
+.button:hover{
+width:7rem;
+height: 3.5rem;
+transition: all .5s ease;
+
+}
+
+.button1{
+  background-color:rgb(54, 106, 202);
+
+}
+.button1:hover{
+  background-color: rgba(54,106,200, 0.9);
+}
+
+.button1:active{
+  background-color: rgba(15, 40, 87, 0.4);
+
+}
+
+
+.button2{
+  background-color: 
+}
+
+.button2:hover{
+  background-color:rgb(189, 131, 57);
+}
+
+.button2:active{
+  background-color:rgb(202, 121, 16,0.5);
+  opacity: 0.3rem;
+}
+
+.chocolate{
+  background-color:rgb(199, 137, 57);
+
+}
+
+.default-color{
+  background-color: rgb(74, 76, 78);
+}

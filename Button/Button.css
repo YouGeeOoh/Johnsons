@@ -1,0 +1,75 @@
+.button-holder{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.button{
+  width: 10rem;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 2px rgba(0,0,0,0.2),1px 2px 2px rgba(0,0,0,0.2);
+  cursor:pointer;
+  color:white;
+  padding:0.5rem 1rem;
+  border-radius: 0.3rem;
+  margin:10px;
+  border:none;
+
+ }
+ 
+ .button:hover{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2),2px 2px 3px rgba(0,0,0,0.8);
+
+
+ }
+
+ .d-button{
+  background-color: teal;
+
+  }
+
+  .d-button:active{
+    background-color: rgb(21, 82, 82);
+    transition: all .3 ease-in-out;
+  }
+
+
+  .d-button1:hover{
+    background-color: #00ced1;
+  }
+
+  .d-button1:active{
+    background-color: rgb(20, 110, 110);
+    transition: all .3 ease-in-out;
+  }
+
+
+  .c-button{
+    background-color: rgb(218, 10, 44);
+  }
+
+  .c-button:hover{
+    background-color: #d3003f;
+  }
+
+  .c-button:active{
+    background-color: #dc143c;
+    transition: all .3 ease-in-out;
+  }
+
+  .teal{
+    background-color: teal;
+
+  }
+
+  
+
